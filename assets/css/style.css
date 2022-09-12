@@ -164,6 +164,7 @@ h3 {
 
 h4 {
   font-size: 30px;
+  color: #3b3f82;
 }
 
 h5 {
@@ -723,6 +724,10 @@ img.left {
   font-size: 18px !important;
 }
 
+.valign .hero-cont .fz-18 {
+  color: #3b3f82;
+}
+
 .fz-20 {
   font-size: 20px !important;
 }
@@ -954,6 +959,11 @@ img.left {
 
 .ls2 {
   letter-spacing: 2px !important;
+}
+
+.round-head .ls2,
+.round-head>h2 {
+  color: #3b3f82;
 }
 
 .ls3 {
@@ -2706,6 +2716,7 @@ img.left {
   letter-spacing: 4px;
   margin-bottom: 10px;
   opacity: 0.8;
+  color: #3b3f82;
 }
 
 .simple-head h4 {
@@ -3775,7 +3786,7 @@ img.left {
 }
 
 .nav-scroll .navbar-nav .nav-link {
-  color: #18191d !important;
+  color: #3b3f82 !important;
 }
 
 .nav-scroll .icon-bar,
@@ -9862,7 +9873,7 @@ body.index-main .bg-gray {
 
   .nav-scroll .navbar-collapse .nav-link,
   .light .navbar-collapse .nav-link {
-    color: #18191d !important;
+    color: #3b3f82 !important;
   }
 
   .navbar .search {
