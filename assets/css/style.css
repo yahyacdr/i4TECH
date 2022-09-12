@@ -4903,6 +4903,14 @@ header.simple-header .path a:after {
   animation-timing-function: linear;
 }
 
+.hero .container .tech-icons .icon-cntnr {
+  margin: 0rem 1rem 3rem;
+}
+
+.hero .container .tech-icons {
+  justify-content: center;
+}
+
 @-webkit-keyframes rotate {
   from {
     transform: rotate(360deg);
