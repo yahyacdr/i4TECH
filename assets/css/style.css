@@ -9305,7 +9305,6 @@ header.simple-header .path a:after {
   height: 450px;
   width: 100%;
   position: relative;
-  filter: grayscale(100%);
 }
 
 .contact-crv .google-maps iframe {
