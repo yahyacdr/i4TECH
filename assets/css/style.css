@@ -9703,6 +9703,10 @@ body.cr-agency .states ul .sd-color h5 {
   color: #3b3f82;
 }
 
+body.cr-agency section.hero {
+  padding: 120px 0 100px;
+}
+
 body.sass1 {
   color: #15194a;
 }
