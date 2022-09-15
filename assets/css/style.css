@@ -492,6 +492,10 @@ img.left {
   align-items: center;
 }
 
+.valign .hero-cont p {
+  color: #3b3f82;
+}
+
 .flex {
   display: flex;
 }
@@ -722,10 +726,6 @@ img.left {
 
 .fz-18 {
   font-size: 18px !important;
-}
-
-.valign .hero-cont .fz-18 {
-  color: #3b3f82;
 }
 
 .fz-20 {
@@ -10681,6 +10681,10 @@ body.index-main .bg-gray {
 }
 
 @media screen and (max-width: 480px) {
+  .hero .valign .hero-cont {
+    max-width: 276px;
+  }
+
   .hero-cir .th-cir {
     width: auto;
     height: auto;
@@ -10725,6 +10729,13 @@ body.index-main .bg-gray {
     width: 220px;
     height: 220px;
     margin: 30px auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body.index-bus1 .hero .circle-pattern {
+    width: 100vw;
+    height: 100vw
   }
 }
 
