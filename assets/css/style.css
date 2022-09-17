@@ -9261,7 +9261,7 @@ header.simple-header .path a:after {
 /* ====================== [ End accordion ] ====================== */
 /* ====================== [ Start contact ] ====================== */
 .contact-crv .box-shadow {
-  padding: 80px 50px;
+  /* padding: 80px 50px; */
   background: #fff;
   box-shadow: 0px 20px 40px rgba(60, 63, 130, 0.07);
   position: relative;
@@ -9299,6 +9299,10 @@ header.simple-header .path a:after {
 .contact-crv form button:hover {
   background: transparent;
   color: #3b3f82;
+}
+
+.box-shadow .contact-form {
+  width: 100%;
 }
 
 .contact-crv .google-maps {
@@ -10673,10 +10677,6 @@ body.index-main .bg-gray {
 
   .line-head h6 {
     padding: 0 10px;
-  }
-
-  .contact-crv .box-shadow {
-    padding: 50px 20px;
   }
 }
 
